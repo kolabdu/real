@@ -1,0 +1,224 @@
+/* styles.css */
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #c7daeb;
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    color:#333;
+}
+
+nav li a {
+   color:#333;
+}
+
+.landing-page {
+    position: relative;
+    height: 98vh;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.landing-page img {
+    width: 100%;
+    height: 98%;
+    object-fit: cover;
+    
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    text-align: center;
+}
+
+.overlay h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.overlay p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0074D9;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: #005689;
+}
+
+.testimonial-section {
+    text-align: center;
+    padding: 50px 0;
+    
+  }
+  
+  .testimonial {
+    margin: 0 auto 30px;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .client-name {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+.property-listings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.property-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.listings{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* Add your CSS for Contact and About pages below */
+
+.contact-info {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.2rem;
+}
+
+.about-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: justify;
+}
+
+
+
+/* Add your CSS for Property page below */
+
+.property-details {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.property-details img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.property-details h2 {
+    margin-bottom: 10px;
+}
+
+.property-details p {
+    margin-bottom: 5px;
+}
+/* Add your CSS for search functionality and property listings here */
+
+.search-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.search-container input[type=text] {
+    padding: 10px;
+    width: 300px;
+}
+
+.search-container button {
+    padding: 10px 20px;
+    background-color: #0074D9;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.property-listings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.property-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.listings {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
