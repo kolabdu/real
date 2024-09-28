@@ -8,7 +8,7 @@
 </head>
 <body>
 
-    <header>
+<!--     <header>
         <h2>My Real Estate Listings</h2>
         <nav>
             <ul>
@@ -25,7 +25,33 @@
         <div class="property-listings">
             <!-- Property listings will be dynamically added here -->
         </div>
-    </header>
+    </header> -->
+
+           <header>
+            <div class="flex container">
+                <a id="logo" href="#">EMIRATE.</a>
+                 <div class="contain">
+            <input type="text" id="searchInput" placeholder="Search properties...">
+            <button class="rounded" onclick="search()">Search</button>
+        </div>
+                <nav>
+                    <button id="nav-toggle" class="hamburger-menu">
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                    </button>
+
+                    <ul id="nav-menu">
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="#properties" >Properties</a></li>
+                        <li><a href="#agents" >Partners</a></li>
+                        <!-- <li><a href="#about">About</a></li> -->
+                        <li><a href="#contact">Contact</a></li>
+                        <li id="close-flyout"><span class="fas fa-times"></span></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
 
     <div class="landing-page">
         <div class="overlay">
